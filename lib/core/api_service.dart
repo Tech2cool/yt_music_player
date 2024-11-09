@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:music_player/core/models/search_model.dart';
 
-const baseUrl = "http://192.168.1.107:8080";
+const baseUrl = "https://music-tech-rho.vercel.app";
 
 class ApiService {
   static final ApiService _instance = ApiService._internal();
